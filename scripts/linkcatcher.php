@@ -25,8 +25,6 @@ $results = array_filter($stack, function($value) {
 // loop through and echo links
 foreach($results as $result) {
     echo "<a class='hrefs' href='$result'>$result</a><br>";
-//    echo "<a href='$result'>$result</a><br>";
-//    echo "<div onclick='locaton.href='$result'' class='link'>$result</div>";
 }
 
 ?>
