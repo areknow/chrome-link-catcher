@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Link Catcher",
+  "description": "This extension gathers links from a given webpage.",
+  "version": "0.8",
+  "background": {
+    "js": ["jquery.min.js", "popup.js"]
+},
+  "permissions": [
+    "http://localhost/",
+    "tabs",
+    "http://*/*", 
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
