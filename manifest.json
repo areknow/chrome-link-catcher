@@ -11,7 +11,8 @@
     "http://localhost/",
     "tabs",
     "http://*/*", 
-    "https://*/*"
+    "https://*/*",
+    "<all_urls>"
   ],
   "browser_action": {
     "default_icon": "icon.png",
